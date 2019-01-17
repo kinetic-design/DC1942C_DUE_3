@@ -16,10 +16,6 @@
     @ingroup LTC68042
 */
 
-// Include Scheduler since we want to manage multiple tasks.
-//#include <Arduino.h>
-//#include <Wire.h>
-
 #include <Scheduler.h>
 #include <stdint.h>
 #include <Linduino.h>
