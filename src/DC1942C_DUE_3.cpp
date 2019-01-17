@@ -5,7 +5,7 @@
 // Tier 1 Engineering, Santa Ana California
 //
 // Sketch for an SAM8X DUE GEVCU board that controls the undervoltage
-// flag (UVF) and overvoltage flag (OVF)  lines of a Manzanita Micro
+// flag (UVF) and overvoltage flag (OVF)  lines of a BRUSA NLG513 charger
 // PFC charger based on voltage data received from a stack of '6804-2
 // chips via the LTC6804_2_Stack class. Note that a SPDT relay is placed
 // between the PFC charger's UVF and OVF lines and the Linduino
