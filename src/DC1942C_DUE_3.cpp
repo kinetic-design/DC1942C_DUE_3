@@ -25,15 +25,10 @@
 #include <Linduino.h>
 #include <DC1942C_Stack.h>
 #include "UserInterface.h"
-#include "LCD.h"  // For LCD
-#include "LiquidCrystal_I2C.h" // Added library*
+
 
 #define MAX_FLOAT 3.4028235E+38
 #define FLOAT_PRINT_PRECISION 3
-
-//Set the pins on the I2C chip used for LCD connections
-//ADDR,EN,R/W,RS,D4,D5,D6,D7
-LiquidCrystal_I2C lcd(0x27,2,1,0,4,5,6,7); // 0x27 is the default I2C bus addre
 
 // Digital pins that control the state of the undervoltage and
 // overvoltage lines on the PFC charger
@@ -130,7 +125,6 @@ void print_reg_group( const uint16_t* const regDataPtr, const uint8_t grpSize, c
 void print_float_matrix( float* arr, uint8_t nRows, uint8_t nCols, uint8_t prec, char* unit );
 void print_bool_array( bool* arr, uint8_t len, char* trueVal, char* falseVal );
 void StackConfig();
-void LCD_main ();
 void NOTBALANCING();
 void BALANCING();
 void CVOK();
@@ -149,10 +143,6 @@ void setup()
     Serial.begin( SERIAL_BAUD );  // Initialize PC-GEVCU serial communications
     while ( !Serial.available() );
 
-    // Set off LCD module
-    lcd.begin (20,4); // 16 x 2 LCD module
-    lcd.setBacklightPin(3,POSITIVE); // BL, BL_POL
-    lcd.setBacklight(HIGH);
 
     pinMode( LED13, OUTPUT );
     pinMode( SPI_CS, OUTPUT );
@@ -230,7 +220,6 @@ void task1()
     {
             //CVOK();
             //CVOKData();
-            LCD_main();
             delay(1000);
     }
 }
@@ -284,16 +273,6 @@ void task3()
 //    yield();
 } // add for continuous
 
-/************** LCD Function Task ********************************************/
-void task4()
-{
-    while ( true )
-    {
-        LCD_main();
-
-        delay(2000);
-    }
-}
 
 /************** Menu Function Task *******************************************/
 void run_command(uint16_t cmd)
@@ -305,21 +284,18 @@ void run_command(uint16_t cmd)
   {
     case 0:
       print_menu();
-      LCD_main();
       break;
 
     case 1:
       //Serial.println("case 1 Balancing Off");
       balanceCells = false;
       NOTBALANCING();
-      LCD_main();
       break;
 
     case 2:
       //Serial.println("case 2 Balancing On");
       balanceCells = true;
       BALANCING();
-      LCD_main();
       break;
 
     case 3:
@@ -661,65 +637,3 @@ void print_reg_group( const uint16_t* const regDataPtr, const uint8_t grpSize, c
     Serial.println();
   } // end for
 } // end print_reg_group
-
-
-
-// Call with number to display (FLOAT), decimal point column,
-// line number (0 or 1),number of columns after DP (start with 4),
-// number of columns after decimal point (try 3)
-
-void lcdNumFlt (float num, byte dpcol, byte line, byte bdp, byte adp)
-{
-  long  tmp;
-  byte offset = 1;
-
-  tmp = num;
-  while(abs(tmp) >= 10){
-    tmp /= 10;
-    offset ++;
-  }
-  if(num < 0) offset ++;
-  lcd.setCursor(dpcol - bdp, line);
-  for(byte i = 0;i < bdp + adp + 1;i ++)
-    lcd.print(" ");
-  lcd.setCursor(dpcol - offset, line);
-  lcd.print(num, adp);
-}
-
-/*** LCD_main - Prints the main BMS screen ************************************/
-void LCD_main ()
-{
-    //float volts = socSUM;
-    int   cdtSec = 456;
-    char  LCDmsg[20];
-
-    lcd.clear();
-    //delay(10);
-    lcd.setCursor(0,0);
-    sprintf(LCDmsg, " volts");//:     SEC:%03u", cdtSec);
-    lcd.print("Balance: ");
-    if (balanceCells)
-        lcd.print("ON");
-    else
-        lcd.print("OFF");
-
-    lcd.setCursor(0,1);
-    lcd.print("soc: ");
-    lcdNumFlt(socSUM,8,1,2,3);
-    lcd.print(LCDmsg);
-
-    lcd.setCursor(0,2);
-    lcd.print("min:");
-    lcdNumFlt(minCellVoltage,5,2,2,3);
-    //lcd.print(LCDmsg);
-
-    lcd.setCursor(11,2);
-    lcd.print("max:");
-    lcdNumFlt(maxCellVoltage,16,2,2,3);
-    //lcd.print(LCDmsg);
-
-    lcd.setCursor(0,3);
-    lcd.print("dV: ");
-    lcdNumFlt(deltaCellVoltage,5,3,2,3);
-    lcd.print(LCDmsg);
-}

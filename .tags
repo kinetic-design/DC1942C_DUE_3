@@ -1,67 +1,152 @@
-MAX_FLOAT	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define MAX_FLOAT /;"	macro	line:31	file:
-FLOAT_PRINT_PRECISION	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define FLOAT_PRINT_PRECISION /;"	macro	line:32	file:
-UV_FLAG_PIN	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define UV_FLAG_PIN /;"	macro	line:40	file:
-OV_FLAG_PIN	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define OV_FLAG_PIN /;"	macro	line:41	file:
-UNDERVOLTAGE_THRESHOLD	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define UNDERVOLTAGE_THRESHOLD /;"	macro	line:45	file:
-OVERVOLTAGE_THRESHOLD	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define OVERVOLTAGE_THRESHOLD /;"	macro	line:46	file:
-VOLTAGE_EQUAL_MARGIN	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define VOLTAGE_EQUAL_MARGIN /;"	macro	line:49	file:
-VOLTAGE_THRESHOLD_EPSILON	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define VOLTAGE_THRESHOLD_EPSILON /;"	macro	line:51	file:
-SET_OVERVOLTAGE	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define SET_OVERVOLTAGE(/;"	macro	line:55	file:
-CLEAR_OVERVOLTAGE	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define CLEAR_OVERVOLTAGE(/;"	macro	line:56	file:
-SET_UNDERVOLTAGE	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define SET_UNDERVOLTAGE(/;"	macro	line:57	file:
-CLEAR_UNDERVOLTAGE	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define CLEAR_UNDERVOLTAGE(/;"	macro	line:58	file:
-OVERVOLTAGE_ASSERTED	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define OVERVOLTAGE_ASSERTED(/;"	macro	line:60	file:
-UNDERVOLTAGE_ASSERTED	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define UNDERVOLTAGE_ASSERTED(/;"	macro	line:61	file:
-SERIAL_BAUD	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define SERIAL_BAUD /;"	macro	line:64	file:
-NUM_ICS	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define NUM_ICS /;"	macro	line:66	file:
-NUM_THERMISTORS	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define NUM_THERMISTORS /;"	macro	line:68	file:
-IC_ADDRESSES	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^const uint8_t IC_ADDRESSES[NUM_ICS] = { 0, 1, 2, 3 };\/\/ 3, 4, 6, 7 };$/;"	variable	line:70
-THERMISTOR_PINS	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^const uint8_t THERMISTOR_PINS[NUM_THERMISTORS] = {$/;"	variable	line:72
-THERMISTOR_B_PARAMETER	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define THERMISTOR_B_PARAMETER /;"	macro	line:76	file:
-THERMISTOR_AMBIENT_TEMPERATURE_KELVIN	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define THERMISTOR_AMBIENT_TEMPERATURE_KELVIN /;"	macro	line:77	file:
-PROGMEM	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^const float THERMISTOR_AMBIENT_RESISTANCES_OHMS[NUM_ICS][NUM_THERMISTORS] PROGMEM = {$/;"	variable	line:78
-configData	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^uint16_t configData[LTC6804_NUM_CONFIG_WORDS] = { 0 };$/;"	variable	line:92
-cellVoltages	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^float cellVoltages[NUM_ICS][LTC6804_NUM_CELLS];$/;"	variable	line:101
-minCellVoltage	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^float minCellVoltage, maxCellVoltage, deltaCellVoltage, totalCellVoltage;$/;"	variable	line:102
-maxCellVoltage	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^float minCellVoltage, maxCellVoltage, deltaCellVoltage, totalCellVoltage;$/;"	variable	line:102
-deltaCellVoltage	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^float minCellVoltage, maxCellVoltage, deltaCellVoltage, totalCellVoltage;$/;"	variable	line:102
-totalCellVoltage	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^float minCellVoltage, maxCellVoltage, deltaCellVoltage, totalCellVoltage;$/;"	variable	line:102
-temperatures_celsius	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^float temperatures_celsius[NUM_ICS][NUM_THERMISTORS];$/;"	variable	line:103
-socSUM	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^float socSUM;$/;"	variable	line:104
-DEBUG	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^bool DEBUG = 0;$/;"	variable	line:106
-cvOk	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^bool cvOk, analogOk, configOk;$/;"	variable	line:109
-analogOk	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^bool cvOk, analogOk, configOk;$/;"	variable	line:109
-configOk	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^bool cvOk, analogOk, configOk;$/;"	variable	line:109
-configStatus	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^bool configStatus[NUM_ICS];$/;"	variable	line:110
-balanceCells	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^bool balanceCells = false;$/;"	variable	line:113
-stopBalancing	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^bool stopBalancing;$/;"	variable	line:114
-rdError	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^int rdError = 0;$/;"	variable	line:116
-ledpwr	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^int ledpwr  = 1;$/;"	variable	line:117
-LED13	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^int LED13   = 13;  \/\/ diagnostic LED heartbeat$/;"	variable	line:118
-user_command	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^uint16_t user_command;$/;"	variable	line:120
-setup	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void setup()$/;"	function	line:147	signature:()
-loop	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void loop()$/;"	function	line:206	signature:()
-task1	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void task1()$/;"	function	line:227	signature:()
-task2	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void task2()$/;"	function	line:239	signature:()
-task3	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void task3()$/;"	function	line:253	signature:()
-task4	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void task4()$/;"	function	line:288	signature:()
-run_command	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void run_command(uint16_t cmd)$/;"	function	line:299	signature:(uint16_t cmd)
-StackConfig	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void StackConfig() {$/;"	function	line:378	signature:()
-NOTBALANCING	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void NOTBALANCING()$/;"	function	line:402	signature:()
-BALANCING	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void BALANCING()$/;"	function	line:426	signature:()
-CVOK	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void CVOK()$/;"	function	line:484	signature:()
-CVOKData	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void CVOKData()$/;"	function	line:499	signature:()
-AOK	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void AOK() {$/;"	function	line:504	signature:()
-CONFIGSTATUS	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void CONFIGSTATUS()$/;"	function	line:510	signature:()
-any	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^bool any( uint16_t* arr, size_t len )$/;"	function	line:520	signature:( uint16_t* arr, size_t len )
-float_matrix_min	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^float float_matrix_min( float matrix[][LTC6804_NUM_CELLS], const size_t nrow )$/;"	function	line:533	signature:( float matrix[][LTC6804_NUM_CELLS], const size_t nrow )
-float_matrix_max	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^float float_matrix_max( float matrix[][LTC6804_NUM_CELLS], const size_t nrow )$/;"	function	line:553	signature:( float matrix[][LTC6804_NUM_CELLS], const size_t nrow )
-float_matrix_sum	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^float float_matrix_sum( float matrix[][LTC6804_NUM_CELLS], const size_t nrow )$/;"	function	line:573	signature:( float matrix[][LTC6804_NUM_CELLS], const size_t nrow )
-print_float_array	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void print_float_array( float* arr, uint8_t len, uint8_t prec, char* unit )$/;"	function	line:590	signature:( float* arr, uint8_t len, uint8_t prec, char* unit )
-print_bool_array	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void print_bool_array( bool* arr, uint8_t len, char* trueVal, char* falseVal )$/;"	function	line:602	signature:( bool* arr, uint8_t len, char* trueVal, char* falseVal )
-print_binary16_array	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void print_binary16_array( uint16_t* arr, uint8_t len )$/;"	function	line:613	signature:( uint16_t* arr, uint8_t len )
-print_binary8_array	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void print_binary8_array( uint8_t* arr, uint8_t len )$/;"	function	line:624	signature:( uint8_t* arr, uint8_t len )
-print_float_matrix	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void print_float_matrix( float* arr, uint8_t nRows, uint8_t nCols, uint8_t prec, char* unit )$/;"	function	line:635	signature:( float* arr, uint8_t nRows, uint8_t nCols, uint8_t prec, char* unit )
-print_reg_group	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void print_reg_group( const uint16_t* const regDataPtr, const uint8_t grpSize, const uint8_t numGrps )$/;"	function	line:650	signature:( const uint16_t* const regDataPtr, const uint8_t grpSize, const uint8_t numGrps )
-lcdNumFlt	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void lcdNumFlt (float num, byte dpcol, byte line, byte bdp, byte adp)$/;"	function	line:671	signature:(float num, byte dpcol, byte line, byte bdp, byte adp)
-LCD_main	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void LCD_main ()$/;"	function	line:690	signature:()
+ui_buffer	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/UserInterface/UserInterface.cpp	/^char ui_buffer[UI_BUFFER_SIZE];$/;"	variable	line:16
+read_data	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/UserInterface/UserInterface.cpp	/^uint8_t read_data()$/;"	function	line:19	signature:()
+read_float	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/UserInterface/UserInterface.cpp	/^float read_float()$/;"	function	line:48	signature:()
+read_int	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/UserInterface/UserInterface.cpp	/^int32_t read_int()$/;"	function	line:63	signature:()
+read_string	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/UserInterface/UserInterface.cpp	/^char *read_string()$/;"	function	line:80	signature:()
+read_char	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/UserInterface/UserInterface.cpp	/^int8_t read_char()$/;"	function	line:87	signature:()
+print_menu	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/UserInterface/UserInterface.cpp	/^void print_menu()$/;"	function	line:96	signature:()
+run_command	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/UserInterface/UserInterface.cpp	/^void run_command(uint16_t cmd)$/;"	function	line:112	signature:(uint16_t cmd)
+LCD	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^LCD::LCD ()$/;"	function	line:52	class:LCD	signature:()
+begin	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::begin(uint8_t cols, uint8_t lines, uint8_t dotsize)$/;"	function	line:79	class:LCD	signature:(uint8_t cols, uint8_t lines, uint8_t dotsize)
+clear	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::clear()$/;"	function	line:168	class:LCD	signature:()
+home	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::home()$/;"	function	line:174	class:LCD	signature:()
+setCursor	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::setCursor(uint8_t col, uint8_t row)$/;"	function	line:180	class:LCD	signature:(uint8_t col, uint8_t row)
+noDisplay	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::noDisplay()$/;"	function	line:204	class:LCD	signature:()
+display	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::display()$/;"	function	line:210	class:LCD	signature:()
+noCursor	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::noCursor()$/;"	function	line:217	class:LCD	signature:()
+cursor	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::cursor()$/;"	function	line:222	class:LCD	signature:()
+noBlink	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::noBlink()$/;"	function	line:229	class:LCD	signature:()
+blink	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::blink()$/;"	function	line:235	class:LCD	signature:()
+scrollDisplayLeft	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::scrollDisplayLeft(void)$/;"	function	line:242	class:LCD	signature:(void)
+scrollDisplayRight	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::scrollDisplayRight(void)$/;"	function	line:247	class:LCD	signature:(void)
+leftToRight	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::leftToRight(void)$/;"	function	line:253	class:LCD	signature:(void)
+rightToLeft	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::rightToLeft(void)$/;"	function	line:260	class:LCD	signature:(void)
+moveCursorRight	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::moveCursorRight(void)$/;"	function	line:267	class:LCD	signature:(void)
+moveCursorLeft	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::moveCursorLeft(void)$/;"	function	line:273	class:LCD	signature:(void)
+autoscroll	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::autoscroll(void)$/;"	function	line:280	class:LCD	signature:(void)
+noAutoscroll	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::noAutoscroll(void)$/;"	function	line:287	class:LCD	signature:(void)
+createChar	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::createChar(uint8_t location, uint8_t charmap[])$/;"	function	line:294	class:LCD	signature:(uint8_t location, uint8_t charmap[])
+createChar	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::createChar(uint8_t location, const char *charmap)$/;"	function	line:309	class:LCD	signature:(uint8_t location, const char *charmap)
+backlight	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::backlight ( void )$/;"	function	line:326	class:LCD	signature:( void )
+noBacklight	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::noBacklight ( void )$/;"	function	line:333	class:LCD	signature:( void )
+on	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::on ( void )$/;"	function	line:340	class:LCD	signature:( void )
+off	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::off ( void )$/;"	function	line:348	class:LCD	signature:( void )
+command	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::command(uint8_t value)$/;"	function	line:356	class:LCD	signature:(uint8_t value)
+write	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD::write(uint8_t value)$/;"	function	line:362	class:LCD	signature:(uint8_t value)
+write	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^size_t LCD::write(uint8_t value)$/;"	function	line:367	class:LCD	signature:(uint8_t value)
+LCD_main	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.cpp	/^void LCD_main ()$/;"	function	line:375	signature:()
+_LCD_H_	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define _LCD_H_$/;"	macro	line:38
+_BV	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define _BV(/;"	macro	line:67
+FAST_MODE	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define FAST_MODE$/;"	macro	line:79
+waitUsec	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^inline static void waitUsec ( uint16_t uSec )$/;"	function	line:91	signature:( uint16_t uSec )
+LCD_CLEARDISPLAY	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_CLEARDISPLAY /;"	macro	line:108
+LCD_RETURNHOME	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_RETURNHOME /;"	macro	line:109
+LCD_ENTRYMODESET	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_ENTRYMODESET /;"	macro	line:110
+LCD_DISPLAYCONTROL	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_DISPLAYCONTROL /;"	macro	line:111
+LCD_CURSORSHIFT	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_CURSORSHIFT /;"	macro	line:112
+LCD_FUNCTIONSET	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_FUNCTIONSET /;"	macro	line:113
+LCD_SETCGRAMADDR	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_SETCGRAMADDR /;"	macro	line:114
+LCD_SETDDRAMADDR	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_SETDDRAMADDR /;"	macro	line:115
+LCD_ENTRYRIGHT	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_ENTRYRIGHT /;"	macro	line:119
+LCD_ENTRYLEFT	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_ENTRYLEFT /;"	macro	line:120
+LCD_ENTRYSHIFTINCREMENT	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_ENTRYSHIFTINCREMENT /;"	macro	line:121
+LCD_ENTRYSHIFTDECREMENT	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_ENTRYSHIFTDECREMENT /;"	macro	line:122
+LCD_DISPLAYON	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_DISPLAYON /;"	macro	line:126
+LCD_DISPLAYOFF	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_DISPLAYOFF /;"	macro	line:127
+LCD_CURSORON	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_CURSORON /;"	macro	line:128
+LCD_CURSOROFF	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_CURSOROFF /;"	macro	line:129
+LCD_BLINKON	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_BLINKON /;"	macro	line:130
+LCD_BLINKOFF	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_BLINKOFF /;"	macro	line:131
+LCD_DISPLAYMOVE	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_DISPLAYMOVE /;"	macro	line:135
+LCD_CURSORMOVE	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_CURSORMOVE /;"	macro	line:136
+LCD_MOVERIGHT	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_MOVERIGHT /;"	macro	line:137
+LCD_MOVELEFT	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_MOVELEFT /;"	macro	line:138
+LCD_8BITMODE	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_8BITMODE /;"	macro	line:142
+LCD_4BITMODE	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_4BITMODE /;"	macro	line:143
+LCD_2LINE	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_2LINE /;"	macro	line:144
+LCD_1LINE	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_1LINE /;"	macro	line:145
+LCD_5x10DOTS	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_5x10DOTS /;"	macro	line:146
+LCD_5x8DOTS	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define LCD_5x8DOTS /;"	macro	line:147
+COMMAND	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define COMMAND /;"	macro	line:152
+DATA	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define DATA /;"	macro	line:153
+FOUR_BITS	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define FOUR_BITS /;"	macro	line:154
+HOME_CLEAR_EXEC	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define HOME_CLEAR_EXEC /;"	macro	line:163
+BACKLIGHT_OFF	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define BACKLIGHT_OFF /;"	macro	line:171
+BACKLIGHT_ON	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^#define BACKLIGHT_ON /;"	macro	line:179
+POSITIVE	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^typedef enum { POSITIVE, NEGATIVE } t_backlighPol;$/;"	enumerator	line:187	enum:__anon1
+NEGATIVE	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^typedef enum { POSITIVE, NEGATIVE } t_backlighPol;$/;"	enumerator	line:187	enum:__anon1
+t_backlighPol	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^typedef enum { POSITIVE, NEGATIVE } t_backlighPol;$/;"	typedef	line:187	typeref:enum:__anon1
+LCD	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^class LCD : public Print$/;"	class	line:189
+setBacklightPin	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^   virtual void setBacklightPin ( uint8_t value, t_backlighPol pol ) { };$/;"	function	line:488	class:LCD	signature:( uint8_t value, t_backlighPol pol )
+setBacklight	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^   virtual void setBacklight ( uint8_t value ) { };$/;"	function	line:507	class:LCD	signature:( uint8_t value )
+_displayfunction	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^   uint8_t _displayfunction;  \/\/ LCD_5x10DOTS or LCD_5x8DOTS, LCD_4BITMODE or$/;"	member	line:535	class:LCD
+_displaycontrol	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^   uint8_t _displaycontrol;   \/\/ LCD base control command LCD on\/off, blink, cursor$/;"	member	line:537	class:LCD
+_displaymode	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^   uint8_t _displaymode;      \/\/ Text entry mode to the LCD$/;"	member	line:539	class:LCD
+_numlines	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^   uint8_t _numlines;         \/\/ Number of lines of the LCD, initialized with begin()$/;"	member	line:540	class:LCD
+_cols	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^   uint8_t _cols;             \/\/ Number of columns in the LCD$/;"	member	line:541	class:LCD
+_polarity	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^   t_backlighPol _polarity;   \/\/ Backlight polarity$/;"	member	line:542	class:LCD
+send	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/lib/LCD/LCD.h	/^   virtual void send(uint8_t value, uint8_t mode) { };$/;"	function	line:573	class:LCD	signature:(uint8_t value, uint8_t mode)
+MAX_FLOAT	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define MAX_FLOAT /;"	macro	line:30	file:
+FLOAT_PRINT_PRECISION	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define FLOAT_PRINT_PRECISION /;"	macro	line:31	file:
+UV_FLAG_PIN	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define UV_FLAG_PIN /;"	macro	line:35	file:
+OV_FLAG_PIN	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define OV_FLAG_PIN /;"	macro	line:36	file:
+UNDERVOLTAGE_THRESHOLD	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define UNDERVOLTAGE_THRESHOLD /;"	macro	line:40	file:
+OVERVOLTAGE_THRESHOLD	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define OVERVOLTAGE_THRESHOLD /;"	macro	line:41	file:
+VOLTAGE_EQUAL_MARGIN	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define VOLTAGE_EQUAL_MARGIN /;"	macro	line:44	file:
+VOLTAGE_THRESHOLD_EPSILON	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define VOLTAGE_THRESHOLD_EPSILON /;"	macro	line:46	file:
+SET_OVERVOLTAGE	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define SET_OVERVOLTAGE(/;"	macro	line:50	file:
+CLEAR_OVERVOLTAGE	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define CLEAR_OVERVOLTAGE(/;"	macro	line:51	file:
+SET_UNDERVOLTAGE	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define SET_UNDERVOLTAGE(/;"	macro	line:52	file:
+CLEAR_UNDERVOLTAGE	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define CLEAR_UNDERVOLTAGE(/;"	macro	line:53	file:
+OVERVOLTAGE_ASSERTED	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define OVERVOLTAGE_ASSERTED(/;"	macro	line:55	file:
+UNDERVOLTAGE_ASSERTED	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define UNDERVOLTAGE_ASSERTED(/;"	macro	line:56	file:
+SERIAL_BAUD	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define SERIAL_BAUD /;"	macro	line:59	file:
+NUM_ICS	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define NUM_ICS /;"	macro	line:61	file:
+NUM_THERMISTORS	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define NUM_THERMISTORS /;"	macro	line:63	file:
+IC_ADDRESSES	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^const uint8_t IC_ADDRESSES[NUM_ICS] = { 0, 1, 2, 3 };\/\/ 3, 4, 6, 7 };$/;"	variable	line:65
+THERMISTOR_PINS	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^const uint8_t THERMISTOR_PINS[NUM_THERMISTORS] = {$/;"	variable	line:67
+THERMISTOR_B_PARAMETER	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define THERMISTOR_B_PARAMETER /;"	macro	line:71	file:
+THERMISTOR_AMBIENT_TEMPERATURE_KELVIN	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^#define THERMISTOR_AMBIENT_TEMPERATURE_KELVIN /;"	macro	line:72	file:
+PROGMEM	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^const float THERMISTOR_AMBIENT_RESISTANCES_OHMS[NUM_ICS][NUM_THERMISTORS] PROGMEM = {$/;"	variable	line:73
+configData	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^uint16_t configData[LTC6804_NUM_CONFIG_WORDS] = { 0 };$/;"	variable	line:87
+cellVoltages	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^float cellVoltages[NUM_ICS][LTC6804_NUM_CELLS];$/;"	variable	line:96
+minCellVoltage	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^float minCellVoltage, maxCellVoltage, deltaCellVoltage, totalCellVoltage;$/;"	variable	line:97
+maxCellVoltage	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^float minCellVoltage, maxCellVoltage, deltaCellVoltage, totalCellVoltage;$/;"	variable	line:97
+deltaCellVoltage	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^float minCellVoltage, maxCellVoltage, deltaCellVoltage, totalCellVoltage;$/;"	variable	line:97
+totalCellVoltage	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^float minCellVoltage, maxCellVoltage, deltaCellVoltage, totalCellVoltage;$/;"	variable	line:97
+temperatures_celsius	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^float temperatures_celsius[NUM_ICS][NUM_THERMISTORS];$/;"	variable	line:98
+socSUM	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^float socSUM;$/;"	variable	line:99
+DEBUG	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^bool DEBUG = 0;$/;"	variable	line:101
+cvOk	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^bool cvOk, analogOk, configOk;$/;"	variable	line:104
+analogOk	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^bool cvOk, analogOk, configOk;$/;"	variable	line:104
+configOk	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^bool cvOk, analogOk, configOk;$/;"	variable	line:104
+configStatus	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^bool configStatus[NUM_ICS];$/;"	variable	line:105
+balanceCells	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^bool balanceCells = false;$/;"	variable	line:108
+stopBalancing	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^bool stopBalancing;$/;"	variable	line:109
+rdError	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^int rdError = 0;$/;"	variable	line:111
+ledpwr	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^int ledpwr  = 1;$/;"	variable	line:112
+LED13	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^int LED13   = 13;  \/\/ diagnostic LED heartbeat$/;"	variable	line:113
+user_command	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^uint16_t user_command;$/;"	variable	line:115
+setup	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void setup()$/;"	function	line:141	signature:()
+loop	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void loop()$/;"	function	line:196	signature:()
+task1	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void task1()$/;"	function	line:217	signature:()
+task2	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void task2()$/;"	function	line:228	signature:()
+task3	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void task3()$/;"	function	line:242	signature:()
+run_command	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void run_command(uint16_t cmd)$/;"	function	line:278	signature:(uint16_t cmd)
+StackConfig	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void StackConfig() {$/;"	function	line:354	signature:()
+NOTBALANCING	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void NOTBALANCING()$/;"	function	line:378	signature:()
+BALANCING	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void BALANCING()$/;"	function	line:402	signature:()
+CVOK	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void CVOK()$/;"	function	line:460	signature:()
+CVOKData	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void CVOKData()$/;"	function	line:475	signature:()
+AOK	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void AOK() {$/;"	function	line:480	signature:()
+CONFIGSTATUS	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void CONFIGSTATUS()$/;"	function	line:486	signature:()
+any	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^bool any( uint16_t* arr, size_t len )$/;"	function	line:496	signature:( uint16_t* arr, size_t len )
+float_matrix_min	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^float float_matrix_min( float matrix[][LTC6804_NUM_CELLS], const size_t nrow )$/;"	function	line:509	signature:( float matrix[][LTC6804_NUM_CELLS], const size_t nrow )
+float_matrix_max	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^float float_matrix_max( float matrix[][LTC6804_NUM_CELLS], const size_t nrow )$/;"	function	line:529	signature:( float matrix[][LTC6804_NUM_CELLS], const size_t nrow )
+float_matrix_sum	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^float float_matrix_sum( float matrix[][LTC6804_NUM_CELLS], const size_t nrow )$/;"	function	line:549	signature:( float matrix[][LTC6804_NUM_CELLS], const size_t nrow )
+print_float_array	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void print_float_array( float* arr, uint8_t len, uint8_t prec, char* unit )$/;"	function	line:566	signature:( float* arr, uint8_t len, uint8_t prec, char* unit )
+print_bool_array	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void print_bool_array( bool* arr, uint8_t len, char* trueVal, char* falseVal )$/;"	function	line:578	signature:( bool* arr, uint8_t len, char* trueVal, char* falseVal )
+print_binary16_array	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void print_binary16_array( uint16_t* arr, uint8_t len )$/;"	function	line:589	signature:( uint16_t* arr, uint8_t len )
+print_binary8_array	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void print_binary8_array( uint8_t* arr, uint8_t len )$/;"	function	line:600	signature:( uint8_t* arr, uint8_t len )
+print_float_matrix	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void print_float_matrix( float* arr, uint8_t nRows, uint8_t nCols, uint8_t prec, char* unit )$/;"	function	line:611	signature:( float* arr, uint8_t nRows, uint8_t nCols, uint8_t prec, char* unit )
+print_reg_group	/home/pbear/Documents/PlatformIO/Projects/DC1942C_DUE_3/src/DC1942C_DUE_3.cpp	/^void print_reg_group( const uint16_t* const regDataPtr, const uint8_t grpSize, const uint8_t numGrps )$/;"	function	line:626	signature:( const uint16_t* const regDataPtr, const uint8_t grpSize, const uint8_t numGrps )
