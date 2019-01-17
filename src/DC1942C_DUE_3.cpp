@@ -15,13 +15,11 @@
 /*! @file
     @ingroup LTC68042
 */
-
-#include <Scheduler.h>
 #include <stdint.h>
+#include <Scheduler.h>
 #include <Linduino.h>
 #include <DC1942C_Stack.h>
 #include "UserInterface.h"
-
 
 #define MAX_FLOAT 3.4028235E+38
 #define FLOAT_PRINT_PRECISION 3
@@ -182,9 +180,10 @@ void setup()
 
     StackConfig();
 
+  //  Scheduler.startLoop(task1);
+    Scheduler.startLoop(loop);
     Scheduler.startLoop(task1);
     Scheduler.startLoop(task2);
-    Scheduler.startLoop(task3);
 }
 
 
@@ -209,21 +208,11 @@ void loop()
     }
 }
 
-/************** Data Out Terminal constant ************************************/
-void task1()
-{
-    while ( true )
-    {
-            //CVOK();
-            //CVOKData();
-            delay(1000);
-    }
-}
 
 /************** Command Line Control task ************************************/
-void task2()
+void task1()
 {
-    if (Serial.available())
+  if (Serial.available())
     {
         user_command = read_int();    // Read the user command
         Serial.println(user_command);
@@ -235,7 +224,7 @@ void task2()
 
 
 /************** Stack Data Report task ***************************************/
-void task3()
+void task2()
 {
 //    while ( true ) {                // continuous
 //    while (!Serial.available()) {}  // using <return>

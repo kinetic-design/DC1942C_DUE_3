@@ -2,17 +2,15 @@
 //
 // Written by Steve Schulz July 2018
 //
-// Class that handles communication with stacks
-// of DC1942C boards, i.e. breakout boards for
-// LTC6804-2 ICs. Extends the LTC6804_Stack
+// Class that handles communication with stacks of DC1942C boards,
+// i.e. breakout boards for LTC6804-2 ICs. Extends the LTC6804_Stack
 // class.
 
 #include "DC1942C_Stack.h"
 
-// GPIO lines connected to the analog multiplexer
-// on the DC1942C '6804-2 demo board; the GPIOs are
-// listed in order from least-significant select line
-// to most significant select line
+// GPIO lines connected to the analog multiplexer on the
+// DC1942C '6804-2 demo board; the GPIOs are listed in order
+// from least-significant select line to most significant select line
 const uint8_t DC1942C_SELECT_LINES[] PROGMEM = {
 	// LS Line ... MS Line
 	GPIO2, GPIO3, GPIO4

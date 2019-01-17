@@ -12,8 +12,6 @@ Copyright 2018(c) Analog Devices, Inc.
 #ifndef USERINTERFACE_H
 #define USERINTERFACE_H
 
-#include <stdint.h>
-
 #define UI_BUFFER_SIZE 64
 #define SERIAL_TERMINATOR '\n'
 
