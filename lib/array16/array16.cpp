@@ -2,7 +2,7 @@
 // array16.cpp
 //
 // Author  Steve Schulz
-// Company Tier 1 Engineering Inc.
+// Kinetic-Design LLC, Huntington Beach CA
 //
 // Functions used to perform variuous operations
 // on 16-bit arrays. Used in the LTC6804_2_Stack library.
