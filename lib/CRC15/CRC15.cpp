@@ -1,7 +1,5 @@
 // CRC15.cpp
 //
-// Written by Wes Hileman on 4 June 2016
-// U. of Colorado, Colorado Springs
 //
 // Functions used to compute 15-bit Packet Error Codes (PECs)
 // as used by Linear Technology's LTC6804 battery-cell manager chips.
