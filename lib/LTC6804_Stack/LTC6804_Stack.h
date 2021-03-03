@@ -1,7 +1,7 @@
 // LTC6804_2_Stack.h
 //
 // Written by Steve Schulz on 4 June 2018
-// Tier 1 Engineering, Santa Ana CA
+// Kinetic-Design LLC, Huntington Beach CA
 //
 // Class to write, read, and parse data from a stack of Linear Technology's
 // addressed LTC6804-2 ICs connected on a multidrop isoSPI bus.
