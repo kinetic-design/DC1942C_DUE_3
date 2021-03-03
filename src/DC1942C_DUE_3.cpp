@@ -2,7 +2,7 @@
 // DC1942C_DUE_3.cpp
 //
 // Written by Steve Schulz on 25 September 2018
-// Tier 1 Engineering, Santa Ana California
+// Kinetic Design LLC, Huntington Beach California
 //
 // Sketch for an SAM8X DUE GEVCU board that controls the undervoltage
 // flag (UVF) and overvoltage flag (OVF)  lines of a BRUSA NLG513 charger
